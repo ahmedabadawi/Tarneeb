@@ -1,0 +1,36 @@
+Online Tarneeb is a multiplayer cards game based on bidding and trick winning
+
+Game Rules
+~~~~~~~~~~
+1. Played by 4 players in two teams north - south and east - west
+2. The cards are shuffled and distributed to all players, 13 cards per player
+3. Game starts with bidding
+4. The bidding starts from the player on the right of the dealer and moves counter-clockwise
+5. Bidding turn in which the player declares the number of tricks estimated to be won by the team
+6. Each bid can be Pass or Bid and the bid consists of number of tricks and the trump suit or no-trump\
+7. The number of tricks is defined by number 1,2,3... where 1 means 7 tricks and generally (number + 6)
+8. Suits power from highest to lowest is No-Trump, Spades, Hearts, Diamonds, and Clubs
+9. The opponent team to the bidder can challenge by doubling the score (x2)
+10. In case of double the bidding team can challenge back by re-doubling the scope (x4)
+11. The bidding is complete when the last bidder has 3 pass calls after, or in other words no one raises the bid
+12. The bidding process stops if one doubled the call
+13. The match finishes if one team reached 31 (winner) or -31 (loser)
+14. The player with the highest bid is the first one to play by placing one card
+15. The turn moves counter-clockwise
+16. The first player in the hand is free to play any card in any suit
+17. The rest of the players should follow the same suit
+18. If a player doesn't have cards in the trick suit, he can place a trump to win the trick or place any other card and it won't be evaluated
+19. When there are 4 cards (all players played the hand), the trick is evaluated and won by one of the teams
+20. The trick is won by the highest card in the trick or to the highest trump played
+21. The trick winner adds to the number of the tricks won by the team
+22. The team who won the bid should win at least the number of tricks called in the bid
+23. If the team who won the bid made the call and exceeded it, their score increases by the number of tricks won and the other team stays
+24. If the team who won the bid couldn't make the call, their score decreases by the number of tricks in the call and the other team score increases by the tricks won
+25. In case of double or re-double, and the team who won the bid won the game the score will be doubled or quadrupled
+26. In case of double or re-double, and the team who won the bid lose the game the decrease of the score will be doubled or quadrupled
+
+Technologies Used
+~~~~~~~~~~~~~~~~~
+ASP.NET MVC 3
+HTML5
+jQuery
