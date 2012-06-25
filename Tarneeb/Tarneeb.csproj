@@ -68,6 +68,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\BiddingState.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Models\GamePlayState.cs" />
@@ -80,6 +81,8 @@
     <Compile Include="Models\MatchScore.cs" />
     <Compile Include="Models\CardsShuffler.cs" />
     <Compile Include="Models\Team.cs" />
+=======
+>>>>>>> 6b5fdc19a9f95ba84faefcc22734a986aaf87bbc
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
