@@ -2,7 +2,54 @@
     ViewBag.Title = "Home Page";
 }
 
-<h2>@ViewBag.Message</h2>
-<p>
-    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
-</p>
+<div id="banner_block">
+    <table style="width:100%">
+        <tr>
+            <td>
+                <div id="banner_1"> 
+                    <img src="@Url.Content("~/Content/images/banner_pic_1.jpg")" width="778" height="229" alt="" />
+                    <a href="#"><img src="@Url.Content("~/Content/images/banner_pic_2.jpg")" width="778" height="97" alt="" /></a>
+                </div>
+            </td>
+            <td>
+                <div class="side">
+                    <!-- Placeholder for top players -->
+                    <div class="side_top">Top Players</div>
+                    <table style="width:100%" class="side_box">
+                        <tr class="yellow">
+                            <td>Player </td>
+                            <td># Games</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Lorem ipsum</a></td>
+                            <td>2000</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Praesent volutpat</a></td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Nullam metus</a></td>
+                            <td>800</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Mauris vel lectus</a></td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Cras vehicula</a></td>
+                            <td>500</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#">Praesent tincidunt</a></td>
+                            <td>400</td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="content">
+
+</div>

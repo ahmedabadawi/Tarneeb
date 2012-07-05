@@ -68,7 +68,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
-<<<<<<< HEAD
     <Compile Include="Models\BiddingState.cs" />
     <Compile Include="Models\Card.cs" />
     <Compile Include="Models\GamePlayState.cs" />
@@ -81,11 +80,44 @@
     <Compile Include="Models\MatchScore.cs" />
     <Compile Include="Models\CardsShuffler.cs" />
     <Compile Include="Models\Team.cs" />
-=======
->>>>>>> 6b5fdc19a9f95ba84faefcc22734a986aaf87bbc
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\images\ad.gif" />
+    <Content Include="Content\images\arrow_1.gif" />
+    <Content Include="Content\images\banner_1_bg.gif" />
+    <Content Include="Content\images\banner_pic_1.jpg" />
+    <Content Include="Content\images\banner_pic_2.jpg" />
+    <Content Include="Content\images\black_btn.gif" />
+    <Content Include="Content\images\body_bg.gif" />
+    <Content Include="Content\images\border_1.gif" />
+    <Content Include="Content\images\border_2.gif" />
+    <Content Include="Content\images\bottom_box_bg.gif" />
+    <Content Include="Content\images\flag.gif" />
+    <Content Include="Content\images\flag_1.gif" />
+    <Content Include="Content\images\flag_2.gif" />
+    <Content Include="Content\images\flag_3.gif" />
+    <Content Include="Content\images\flag_4.gif" />
+    <Content Include="Content\images\flag_5.gif" />
+    <Content Include="Content\images\flag_6.gif" />
+    <Content Include="Content\images\footer_pic.gif" />
+    <Content Include="Content\images\green_btn.gif" />
+    <Content Include="Content\images\header_outer_bg.gif" />
+    <Content Include="Content\images\menu_bg.gif" />
+    <Content Include="Content\images\online_poker.png" />
+    <Content Include="Content\images\orange_btn.gif" />
+    <Content Include="Content\images\pic_1.gif" />
+    <Content Include="Content\images\pic_2.gif" />
+    <Content Include="Content\images\pic_3.gif" />
+    <Content Include="Content\images\pic_4.gif" />
+    <Content Include="Content\images\pic_5.gif" />
+    <Content Include="Content\images\pic_6.gif" />
+    <Content Include="Content\images\pic_7.gif" />
+    <Content Include="Content\images\search_btn.gif" />
+    <Content Include="Content\images\side_yellow_bg.gif" />
+    <Content Include="Content\images\spacer.gif" />
+    <Content Include="Content\images\table_top_bg.gif" />
+    <Content Include="Content\images\yellow_btn.gif" />
     <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
@@ -181,6 +213,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\images\banner_pic_1.pdn" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

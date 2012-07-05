@@ -3,7 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarneeb", "Tarneeb\Tarneeb.csproj", "{8BE79690-B7DB-4A01-A6A4-3D8B9FD19951}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarneeb.Test", "Tarneeb.Test\Tarneeb.Test.csproj", "{C6377A32-399D-4025-A74C-03F760BB2624}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F18E8DE-D244-4D05-ADEC-5EE58CEFEA81}"
@@ -17,9 +16,6 @@ Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Tarneeb.vsmdi
 	EndGlobalSection
-=======
-Global
->>>>>>> 6b5fdc19a9f95ba84faefcc22734a986aaf87bbc
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -29,13 +25,10 @@ Global
 		{8BE79690-B7DB-4A01-A6A4-3D8B9FD19951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE79690-B7DB-4A01-A6A4-3D8B9FD19951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE79690-B7DB-4A01-A6A4-3D8B9FD19951}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{C6377A32-399D-4025-A74C-03F760BB2624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6377A32-399D-4025-A74C-03F760BB2624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6377A32-399D-4025-A74C-03F760BB2624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6377A32-399D-4025-A74C-03F760BB2624}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
->>>>>>> 6b5fdc19a9f95ba84faefcc22734a986aaf87bbc
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
